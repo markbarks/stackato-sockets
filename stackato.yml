@@ -1,24 +1,2 @@
 name: stackato-websockets
 buildpack: https://github.com/ActiveState/stackato-buildpack-python.git
-#framework:
-#  type: python
-#  start-file: app.py
-
-#processes:
-#  web: app.py
-
-#env:
-#  PORT: 8000
-
-#requirements:
-#  pip:
-#    - Flask
-#    - Flask-Sockets
-#services:
-#  ${name}-fs: filesystem
-#env:
-#  MOIN_SECRET: s3cr3tk3y
-#hooks:
-#  pre-running:
-#    - ln -s $STACKATO_FILESYSTEM wiki
-#    - cp -rn $PYTHONUSERBASE/share/moin/* wiki/

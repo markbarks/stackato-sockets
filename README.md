@@ -1,16 +1,3 @@
-# A simple Python app
-
-## Local development
-
-    pip install -r requirements.txt
-    python app.py
-
-## Deploying to Stackato
-
-    stackato push -n
-
-
-
 
 #web: gunicorn --debug -b 0.0.0.0:$PORT -k flask_sockets.worker web:app
 
