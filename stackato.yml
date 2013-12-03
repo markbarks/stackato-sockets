@@ -1,2 +1,2 @@
-name: stackato-websockets
+name: stackato-sockets
 buildpack: https://github.com/ActiveState/stackato-buildpack-python.git

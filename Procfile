@@ -1,1 +1,1 @@
-web: gunicorn --debug -b $VCAP_APP_HOST:$VCAP_APP_PORT -k flask_sockets.worker webby:app
+web: gunicorn --debug -b 0.0.0.0:$PORT -k flask_sockets.worker web:app
